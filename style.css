@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(images/body_image.jpg); 
+	
+}
+#block-body{
+	width: 1035px;
+	margin: 5px auto;
+	height: auto;
+
+}
+
+header{
+	width: 1035px;
+	height: 80px;
+	background-color: black;
+}
+
+.logo{
+	width: 200px;
+	float: left;
+	height: 80px;
+}
+
+.logo a{
+	display: block;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 28px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer; 
+}
+
+.ufc{
+	color: red;
+}
+
+.logo p {
+	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: white; 
+}
+
+.top-menu{
+	width:685px;
+	height: 80px;
+	float: left;
+}
+
+.top-menu ul li {
+	list-style: none;
+	float: left;
+	text-align: center;
+
+}
+.top-menu ul li a{
+	display: block;
+	width: 171px;
+	text-decoration: none;
+	font-family: transparent;
+	font-size: 17px;
+	color: white;
+	height: 55px;
+	padding-top: 25px;
+	cursor: pointer;
+}
+
+.top-menu ul li a:hover{
+	
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	background: #70a5fa;
+}
